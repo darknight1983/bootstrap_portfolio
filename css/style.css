@@ -1,0 +1,207 @@
+
+@import 'reset.css';
+
+
+body {
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png');
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif'
+}
+
+div, section, aside, p, ul, footer {
+ font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+
+.content-area {
+  clear: both;
+  margin: 30px auto;
+  width: 960px;
+}
+
+
+/*---------------------HEADER SECTION------------------------------*/
+
+
+.header-content-area {
+  clear: both;
+  margin: 0 auto;
+  width: 960px;
+}
+.header {
+  background-color: rgba(102, 102, 102, 1.0);
+  overflow-y: auto;
+  border-bottom: 2px solid rgba(0, 178, 166, 1.0);
+}
+
+.my_name_header {
+  background-color: rgba(0, 178, 166, 1.0);
+  color: #ffffff;
+  font-size: 1.8em;
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav {
+  display: inline;
+  float: right;
+  width: 27%;
+  margin-top: 20px;
+
+}
+
+.nav_item {
+  font-size: 1.2em;
+  display: inline;
+  margin: 10px;
+}
+
+
+.nav_item a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*-----------------------------Content-Area---------------------------*/
+
+.main-content {
+  background-color: #fff;
+  width: 650px;
+  float: left;
+  border: 2px solid #dddddd;
+  margin-right: 16px;
+}
+
+.content_container {
+  padding: 20px;
+  width: 610px;
+}
+
+h2 {
+  font-size: 1.6em;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid gray;
+  color: rgba(0, 178, 166, 1.0);
+}
+
+.about_me_img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+}
+
+.content_container p {
+  line-height: 1.5;
+}
+
+/*---------------------------Aside Element-----------------------------*/
+
+.social_links {
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  margin-left: 16px;
+  width: 270px;
+  float: left;
+}
+
+h3 {
+  font-size: 1.3em;
+  padding: 23px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid gray;
+  color: rgba(0, 178, 166, 1.0);
+  text-align: center;
+}
+
+.aside-content {
+  padding: 20px;
+}
+
+.img-container {
+  display: inline;
+  margin: 0px 6px;
+}
+
+.img-container img {
+  width: 60px;
+}
+
+/*---------------------Portfolio Page----------------------------*/
+
+
+
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+  margin-left: 60px;
+}
+
+.project-image {
+  background-image: url(../images/Placeholder1.jpg);
+  width: 200px;
+  height: 150px;
+}
+
+.project-title {
+  background-color: rgba(0, 178, 166, 1.0);
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 100px;
+}
+
+/*--------------------------Contact Page-------------------------------*/
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"] {
+  border-radius: 4px;
+  display: block;
+  font-size: 1em;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 98%;
+}
+
+textarea {
+    border-radius: 4px;
+    display: block;
+    width: 98%;
+    padding: 5px;
+    font-size: 17px;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: rgba(0, 178, 166, 1.0);
+  font-size: 18px;
+  color: white;
+}
+
+
+/*-------------------------Footer---------------------------------*/
+
+.footer {
+  clear: both;
+  text-align: center;
+  background-color: #666666;
+  border-top: 3px solid rgba(0, 178, 166, 1.0);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.footer p {
+  padding: 30px;
+  color: white;
+}
