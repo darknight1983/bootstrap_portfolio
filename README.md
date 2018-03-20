@@ -6,7 +6,7 @@
 
 To begin using this template, choose one of the following options to get started:
 * [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/stylish-portfolio/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
+* Clone the repo: `https://github.com/darknight1983/bootstrap_portfolio.git`
 * Fork the repo
 
 ## Bugs and Issues
